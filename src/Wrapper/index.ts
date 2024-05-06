@@ -81,10 +81,9 @@ export const AppWrapper = styled.div<ComponentProps>`
   margin: ${(props) => props.margin || AppWrapperMargin};
   overflow: ${(props) => props.overflow || AppWrapperOverflow};
   padding: ${(props) => props.padding || AppWrapperPadding};
-  width: ${(props) => props.width || '100%'};
+  width: ${(props) => props.width || "100%"};
   max-width: ${AppWrapperDefaultWidth};
   min-height: 100vh;
-  
 `;
 
 export const PageWrapper = styled.div<ComponentProps>`

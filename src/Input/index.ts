@@ -32,9 +32,10 @@ export const Input = styled.input<ComponentProps>`
   color: ${(props) => props.fontColor || TextColor};
   font-size: ${(props) => props.fontSize || InputFontSize};
   padding: ${(props) => props.padding || InputPadding};
-  margin: ${(props) => props.margin || 'auto'};
+  margin: ${(props) => props.margin || "auto"};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
+  box-sizing: border-box;
 `;
 
 export const InputOutlined = styled.input<ComponentProps>`
@@ -45,7 +46,8 @@ export const InputOutlined = styled.input<ComponentProps>`
   color: ${(props) => props.fontColor || TextColor};
   font-size: ${(props) => props.fontSize || InputFontSize};
   padding: ${(props) => props.padding || InputPadding};
-  margin: ${(props) => props.margin || 'auto'};
+  margin: ${(props) => props.margin || "auto"};
   width: ${(props) => props.width};
   max-width: ${(props) => props.width};
+  box-sizing: border-box;
 `;
