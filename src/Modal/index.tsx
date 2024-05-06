@@ -33,6 +33,8 @@ const ModalContent = styled.div<ComponentProps>`
 
   @media (max-width: 769px) {
     width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
   }
 `;
 
